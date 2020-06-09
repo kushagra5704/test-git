@@ -8,4 +8,5 @@ $sql = "UPDATE add_vehicle SET approval_status='$approval_status' WHERE vech_id=
 $result = mysqli_query($con,$sql);
 echo 1 ;
 }
+
 ?>
